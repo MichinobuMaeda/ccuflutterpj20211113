@@ -119,6 +119,11 @@ VS Code でターミナルを開く
 $> flutter run -d chrome --web-port 5000
 ```
 
+```
+$ eval `ssh-agent`
+$ ssh-add
+```
+
 ## GitHub 初期登録
 
 GitHub
@@ -135,6 +140,12 @@ $ git commit -m "first commit"
 $ git branch -M main
 $ git remote add origin git@github.com:MichinobuMaeda/ccuflutterpj20211113.git
 $ git push -u origin main
+```
+
+```
+PS> git clone git@github.com:MichinobuMaeda/ccuflutterpj20211113.git
+PS> flutter pub get
+PS> flutter run -d chrome --web-port 5000
 ```
 
 ## プラットフォーム Android の追加
