@@ -159,6 +159,13 @@ $ flutter run -d emulator-5554
 
 ```
 $ git checkout -b changethemecolor
+$ git branch 
+* changethemecolor
+  main
+$ git status
+$ git add .
+$ git commit -m "テーマカラー変更"
+$ git push
 ```
 
 ## Firebase のプロジェクトの作成
